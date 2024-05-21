@@ -1,0 +1,3 @@
+In terminal create react app `npx create-react-app .`
+
+In README.md layout plans of routes and contexts and data.
