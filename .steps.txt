@@ -1,3 +1,19 @@
 In terminal create react app `npx create-react-app .`
 
 In README.md layout plans of routes and contexts and data.
+
+Go on NPM website and search color palette. Found package:
+- Paletten - https://www.npmjs.com/package/paletten
+- Colorblender - https://www.npmjs.com/package/colorblender
+- React Syntax Highlighter - https://www.npmjs.com/package/react-syntax-highlighter
+- React pure modal - https://www.npmjs.com/package/react-pure-modal
+- React router dom - https://www.npmjs.com/package/react-router-dom
+- React use - https://www.npmjs.com/package/react-use
+
+Start run app
+
+In source file rip out a bunch of what react has provided
+create folders in src:
+- components
+- contexts
+- functions
