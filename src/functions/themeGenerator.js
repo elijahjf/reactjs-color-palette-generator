@@ -53,6 +53,7 @@ export function generateTones(baseColour, themeName = "") {
       strength: key,
       hex: rawPalettenOutput[key],
       rgb: colorblender(rawPalettenOutput[key]).rgb(),
+      themeName: newThemeName,
     };
   });
 
