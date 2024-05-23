@@ -3,6 +3,7 @@ import {
   useBaseColourGlobalData,
   useBaseColourGlobalDispatch,
 } from "../contexts/baseColourContext";
+import { Sketch } from "@uiw/react-color";
 
 export default function GeneratorPage() {
   // Base colour from form
@@ -18,10 +19,20 @@ export default function GeneratorPage() {
     setFormBaseColour(baseColourGlobal);
   }, [baseColourGlobal]);
 
+  useEffect(() => {
+    setBaseColourGlobal(formBaseColour);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [formBaseColour]);
+
   return (
     <div>
       {/* Base colour input form */}
       <h1>{formBaseColour}</h1>
+      {/* <input type="color" name="" id="" /> */}
+      <Sketch
+        color={formBaseColour}
+        onChange={(colour) => setFormBaseColour(colour.hex)}
+      />
 
       {/* CSS theme generator component  */}
     </div>

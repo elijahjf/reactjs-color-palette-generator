@@ -9,6 +9,7 @@ Go on NPM website and search color palette. Found package:
 - React pure modal - https://www.npmjs.com/package/react-pure-modal
 - React router dom - https://www.npmjs.com/package/react-router-dom
 - React use - https://www.npmjs.com/package/react-use
+In terminal: `npm install react-router-dom react-pure-modal react-syntax-highlighter paletten colorblender react-use`
 
 Start run app
 
@@ -17,3 +18,16 @@ create folders in src:
 - components
 - contexts
 - functions
+- styles
+- pages
+
+in styles folder move index.css
+in instex.js change route for index.css to be in ./styles/index.css
+
+steps I didn't record ***
+
+add another package NPM:
+React-color - https://www.npmjs.com/package/@uiw/react-color
+npm i @uiw/react-color
+
+then run app again npm start
